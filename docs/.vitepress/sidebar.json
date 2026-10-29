@@ -1,0 +1,568 @@
+[
+  {
+    "text": "Введение",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "О Hyperf",
+        "link": "/"
+      },
+      {
+        "text": "Сообщество и контакты",
+        "link": "/communication"
+      },
+      {
+        "text": "Пожертвования",
+        "link": "/donate"
+      },
+      {
+        "text": "Участие в разработке",
+        "link": "/contribute"
+      }
+    ]
+  },
+  {
+    "text": "Версии",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "План релизов",
+        "link": "/release-planning"
+      },
+      {
+        "text": "Поддерживаемые версии",
+        "link": "/versions"
+      },
+      {
+        "text": "Журнал изменений 3.1",
+        "link": "/changelog-3.1"
+      }
+    ]
+  },
+  {
+    "text": "Быстрый старт",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "Установка",
+        "link": "/quick-start-install"
+      },
+      {
+        "text": "Быстрый старт",
+        "link": "/quick-start-overview"
+      },
+      {
+        "text": "Часто задаваемые вопросы (FAQ)",
+        "link": "/quick-start-questions"
+      },
+      {
+        "text": "Важные правила корутин",
+        "link": "/quick-start-important"
+      }
+    ]
+  },
+  {
+    "text": "Ядро архитектуры",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Жизненный цикл",
+        "link": "/lifecycle"
+      },
+      {
+        "text": "Корутины (Coroutines)",
+        "link": "/coroutine"
+      },
+      {
+        "text": "Конфигурация",
+        "link": "/config"
+      },
+      {
+        "text": "Аннотации / Атрибуты",
+        "link": "/annotation"
+      },
+      {
+        "text": "Внедрение зависимостей (DI)",
+        "link": "/di"
+      },
+      {
+        "text": "События (Event Dispatcher)",
+        "link": "/event"
+      },
+      {
+        "text": "Аспектно-ориентированное программирование (AOP)",
+        "link": "/aop"
+      }
+    ]
+  },
+  {
+    "text": "Базовый функционал",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Маршрутизация (Router)",
+        "link": "/router"
+      },
+      {
+        "text": "Посредники (Middleware)",
+        "link": "/middleware"
+      },
+      {
+        "text": "Контроллеры",
+        "link": "/controller"
+      },
+      {
+        "text": "Запрос (Request)",
+        "link": "/request"
+      },
+      {
+        "text": "Ответ (Response)",
+        "link": "/response"
+      },
+      {
+        "text": "Обработка исключений",
+        "link": "/exception-handler"
+      },
+      {
+        "text": "Кэширование",
+        "link": "/cache"
+      },
+      {
+        "text": "Логирование",
+        "link": "/logger"
+      },
+      {
+        "text": "Пагинация",
+        "link": "/paginator"
+      },
+      {
+        "text": "Консольные команды",
+        "link": "/command"
+      },
+      {
+        "text": "Тестирование",
+        "link": "/testing"
+      },
+      {
+        "text": "Представления (View)",
+        "link": "/view"
+      },
+      {
+        "text": "Шаблонизаторы (View Engine)",
+        "link": "/view-engine"
+      },
+      {
+        "text": "Локализация (I18n)",
+        "link": "/translation"
+      },
+      {
+        "text": "Валидация",
+        "link": "/validation"
+      },
+      {
+        "text": "Сессии (Session)",
+        "link": "/session"
+      },
+      {
+        "text": "Файловая система",
+        "link": "/filesystem"
+      }
+    ]
+  },
+  {
+    "text": "База данных (ORM)",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "База данных: Быстрый старт",
+        "link": "/db-quick-start"
+      },
+      {
+        "text": "Конструктор запросов (Query Builder)",
+        "link": "/db-querybuilder"
+      },
+      {
+        "text": "ORM Модели",
+        "link": "/db-model"
+      },
+      {
+        "text": "Генератор кода моделей",
+        "link": "/db-gen"
+      },
+      {
+        "text": "Отношения моделей (Relationships)",
+        "link": "/db-relationship"
+      },
+      {
+        "text": "Пагинация БД",
+        "link": "/db-paginator"
+      },
+      {
+        "text": "События моделей",
+        "link": "/db-event"
+      },
+      {
+        "text": "Кэш моделей",
+        "link": "/db-model-cache"
+      },
+      {
+        "text": "Миграции БД",
+        "link": "/db-migration"
+      },
+      {
+        "text": "Мутаторы и кастинг типов",
+        "link": "/db-mutators"
+      },
+      {
+        "text": "Легковесный клиент DB",
+        "link": "/db-db"
+      },
+      {
+        "text": "API Ресурсы",
+        "link": "/db-resource"
+      },
+      {
+        "text": "Полнотекстовый поиск (Scout)",
+        "link": "/scout"
+      }
+    ]
+  },
+  {
+    "text": "Экосистема Hyperf",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Nano",
+        "link": "https://github.com/hyperf/nano"
+      },
+      {
+        "text": "GoTask",
+        "link": "https://github.com/hyperf/gotask"
+      },
+      {
+        "text": "Hyperf Box",
+        "link": "/box"
+      }
+    ]
+  },
+  {
+    "text": "Микросервисы",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Концепция микросервисов",
+        "link": "/microservice"
+      },
+      {
+        "text": "JSON-RPC",
+        "link": "/json-rpc"
+      },
+      {
+        "text": "gRPC",
+        "link": "/grpc"
+      },
+      {
+        "text": "Мультиплексирование RPC",
+        "link": "/rpc-multiplex"
+      },
+      {
+        "text": "Регистрация и обнаружение сервисов",
+        "link": "/service-register"
+      },
+      {
+        "text": "Повтор запросов (Retry)",
+        "link": "/retry"
+      },
+      {
+        "text": "Предохранитель (Circuit Breaker)",
+        "link": "/circuit-breaker"
+      },
+      {
+        "text": "Ограничение частоты запросов (Rate Limit)",
+        "link": "/rate-limit"
+      },
+      {
+        "text": "Центр конфигурации",
+        "link": "/config-center"
+      },
+      {
+        "text": "Трассировка (OpenTracing/Jaeger)",
+        "link": "/tracer"
+      },
+      {
+        "text": "Метрики (Prometheus)",
+        "link": "/metric"
+      },
+      {
+        "text": "Распределенные транзакции (Seata)",
+        "link": "/distributed-transaction"
+      },
+      {
+        "text": "Генератор ID Snowflake",
+        "link": "/snowflake"
+      }
+    ]
+  },
+  {
+    "text": "Серверы",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "TCP Сервер",
+        "link": "/tcp-server"
+      },
+      {
+        "text": "WebSocket Сервер",
+        "link": "/websocket-server"
+      },
+      {
+        "text": "Socket.io Сервер",
+        "link": "/socketio-server"
+      },
+      {
+        "text": "Сервер в стиле корутин",
+        "link": "/coroutine-server"
+      }
+    ]
+  },
+  {
+    "text": "Очереди сообщений",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Асинхронная очередь (Redis)",
+        "link": "/async-queue"
+      },
+      {
+        "text": "AMQP (RabbitMQ)",
+        "link": "/amqp"
+      },
+      {
+        "text": "Nats",
+        "link": "/nats"
+      },
+      {
+        "text": "NSQ",
+        "link": "/nsq"
+      },
+      {
+        "text": "Kafka",
+        "link": "/kafka"
+      }
+    ]
+  },
+  {
+    "text": "Клиенты",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Клиент Redis",
+        "link": "/redis"
+      },
+      {
+        "text": "HTTP-клиент Guzzle",
+        "link": "/guzzle"
+      },
+      {
+        "text": "Клиент Elasticsearch",
+        "link": "/elasticsearch"
+      },
+      {
+        "text": "Клиент Consul",
+        "link": "/consul"
+      },
+      {
+        "text": "Клиент ETCD",
+        "link": "/etcd"
+      },
+      {
+        "text": "Клиент WebSocket",
+        "link": "/websocket-client"
+      },
+      {
+        "text": "Клиент Nacos",
+        "link": "/nacos"
+      },
+      {
+        "text": "Jet RPC Клиент",
+        "link": "/jet"
+      }
+    ]
+  },
+  {
+    "text": "Другие компоненты",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Пул соединений",
+        "link": "/pool"
+      },
+      {
+        "text": "Пользовательские процессы",
+        "link": "/process"
+      },
+      {
+        "text": "Вспомогательные утилиты",
+        "link": "/support"
+      },
+      {
+        "text": "Планировщик задач (Crontab)",
+        "link": "/crontab"
+      },
+      {
+        "text": "Фоновые задачи (Task)",
+        "link": "/task"
+      },
+      {
+        "text": "Перечисления и константы",
+        "link": "/constants"
+      },
+      {
+        "text": "Обработка сигналов",
+        "link": "/signal"
+      },
+      {
+        "text": "Реактивное программирование (RxPHP)",
+        "link": "/reactive-x"
+      },
+      {
+        "text": "Hot Reload (Watcher)",
+        "link": "/watcher"
+      },
+      {
+        "text": "Инструменты разработки (DevTool)",
+        "link": "/devtool"
+      },
+      {
+        "text": "Сборка в Phar",
+        "link": "/phar"
+      },
+      {
+        "text": "Направленные ациклические графы (DAG)",
+        "link": "/dag"
+      },
+      {
+        "text": "Обратная польская нотация (RPN)",
+        "link": "/rpn"
+      },
+      {
+        "text": "Swagger / OpenAPI",
+        "link": "/swagger"
+      }
+    ]
+  },
+  {
+    "text": "Развертывание",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Кластер Docker Swarm",
+        "link": "/tutorial-docker-swarm"
+      },
+      {
+        "text": "DaoCloud DevOps",
+        "link": "/tutorial-daocloud"
+      },
+      {
+        "text": "Развертывание через Supervisor",
+        "link": "/tutorial-supervisor"
+      },
+      {
+        "text": "Проксирование через Nginx",
+        "link": "/tutorial-nginx"
+      },
+      {
+        "text": "Логирование Aliyun",
+        "link": "/tutorial-aliyun-logger"
+      }
+    ]
+  },
+  {
+    "text": "Awesome Hyperf",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Подборка компонентов (Awesome)",
+        "link": "/awesome-components"
+      }
+    ]
+  },
+  {
+    "text": "Разработка компонентов",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Разработка компонентов: Введение",
+        "link": "/component-guide-intro"
+      },
+      {
+        "text": "Создание нового компонента",
+        "link": "/component-guide-create"
+      },
+      {
+        "text": "Механизм ConfigProvider",
+        "link": "/component-guide-configprovider"
+      }
+    ]
+  },
+  {
+    "text": "История изменений",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Журнал изменений 3.0",
+        "link": "/changelog-3.0"
+      },
+      {
+        "text": "Журнал изменений 2.2",
+        "link": "/changelog-2.2"
+      },
+      {
+        "text": "Журнал изменений 2.1",
+        "link": "/changelog-2.1"
+      },
+      {
+        "text": "Журнал изменений 2.0",
+        "link": "/changelog-2.0"
+      },
+      {
+        "text": "Журнал изменений 1.1",
+        "link": "/changelog-1.1"
+      },
+      {
+        "text": "Журнал изменений 1.0",
+        "link": "/changelog-1.0"
+      }
+    ]
+  },
+  {
+    "text": "Руководства по обновлению",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Обновление до 1.1",
+        "link": "/upgrade-1.1"
+      },
+      {
+        "text": "Обновление до 2.0",
+        "link": "/upgrade-2.0"
+      },
+      {
+        "text": "Обновление до 2.1",
+        "link": "/upgrade-2.1"
+      },
+      {
+        "text": "Обновление до 2.2",
+        "link": "/upgrade-2.2"
+      },
+      {
+        "text": "Обновление до 3.0",
+        "link": "/upgrade-3.0"
+      },
+      {
+        "text": "Обновление до 3.1",
+        "link": "/upgrade-3.1"
+      }
+    ]
+  }
+]

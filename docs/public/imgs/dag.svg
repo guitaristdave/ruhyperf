@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 470" role="img" aria-labelledby="title desc">
+<title id="title">Направленный ациклический граф задач</title>
+<desc id="desc">Start → A; A → B, C, D; B → H, E, F; C → F, G; D → G; H, E, F, G → I; I → End.</desc>
+<rect width="520" height="470" rx="6" fill="#f7f8fa"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#76879d"/></marker></defs>
+<path d="M260 46 C260 64.0 260 64.0 260 80" fill="none" stroke="#76879d" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M260 118 C260 140.0 90 140.0 90 160" fill="none" stroke="#76879d" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M260 118 C260 140.0 260 140.0 260 160" fill="none" stroke="#76879d" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M260 118 C260 140.0 430 140.0 430 160" fill="none" stroke="#76879d" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M430 198 C430 225.0 430 225.0 430 250" fill="none" stroke="#76879d" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M260 198 C260 225.0 430 225.0 430 250" fill="none" stroke="#76879d" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M260 198 C260 225.0 260 225.0 260 250" fill="none" stroke="#76879d" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M90 198 C90 225.0 260 225.0 260 250" fill="none" stroke="#76879d" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M90 198 C90 225.0 150 225.0 150 250" fill="none" stroke="#76879d" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M90 198 C90 225.0 40 225.0 40 250" fill="none" stroke="#76879d" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M40 288 C40 315.0 260 315.0 260 340" fill="none" stroke="#76879d" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M150 288 C150 315.0 260 315.0 260 340" fill="none" stroke="#76879d" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M260 288 C260 315.0 260 315.0 260 340" fill="none" stroke="#76879d" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M430 288 C430 315.0 260 315.0 260 340" fill="none" stroke="#76879d" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M260 378 C260 399.0 260 399.0 260 418" fill="none" stroke="#76879d" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="230" y="11" width="60" height="34" rx="17" fill="white" stroke="#a3b3c8"/><text x="260" y="33" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#345a89">Start</text>
+<rect x="230" y="83" width="60" height="34" rx="4" fill="white" stroke="#a3b3c8"/><text x="260" y="105" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#345a89">A</text>
+<rect x="60" y="163" width="60" height="34" rx="4" fill="white" stroke="#a3b3c8"/><text x="90" y="185" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#345a89">B</text>
+<rect x="230" y="163" width="60" height="34" rx="4" fill="white" stroke="#a3b3c8"/><text x="260" y="185" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#345a89">C</text>
+<rect x="400" y="163" width="60" height="34" rx="4" fill="white" stroke="#a3b3c8"/><text x="430" y="185" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#345a89">D</text>
+<rect x="10" y="253" width="60" height="34" rx="4" fill="white" stroke="#a3b3c8"/><text x="40" y="275" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#345a89">H</text>
+<rect x="120" y="253" width="60" height="34" rx="4" fill="white" stroke="#a3b3c8"/><text x="150" y="275" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#345a89">E</text>
+<rect x="230" y="253" width="60" height="34" rx="4" fill="white" stroke="#a3b3c8"/><text x="260" y="275" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#345a89">F</text>
+<rect x="400" y="253" width="60" height="34" rx="4" fill="white" stroke="#a3b3c8"/><text x="430" y="275" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#345a89">G</text>
+<rect x="230" y="343" width="60" height="34" rx="4" fill="white" stroke="#a3b3c8"/><text x="260" y="365" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#345a89">I</text>
+<rect x="230" y="421" width="60" height="34" rx="17" fill="white" stroke="#a3b3c8"/><text x="260" y="443" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#345a89">End</text>
+</svg>
