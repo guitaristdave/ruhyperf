@@ -1,6 +1,8 @@
 import { defineConfig } from 'vitepress'
 import sidebar from './sidebar.json'
 
+const siteUrl = 'https://guitaristdave.github.io/ruhyperf/'
+
 export default defineConfig({
   lang: 'ru-RU',
   title: 'Hyperf на русском',
@@ -8,9 +10,16 @@ export default defineConfig({
   base: '/ruhyperf/',
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/ruhyperf/favicon.svg' }],
-    ['meta', { name: 'theme-color', content: '#345a89' }]
+    ['meta', { name: 'theme-color', content: '#345a89' }],
+    ['meta', { name: 'google-site-verification', content: '80lLk-5b5u74ho8CkcZGaNLIruFavnBZSXU5Qe3uTJ4' }],
+    ['meta', { name: 'yandex-verification', content: '91117382da52e97f' }]
   ],
-  sitemap: { hostname: 'https://guitaristdave.github.io/ruhyperf/' },
+  sitemap: { hostname: siteUrl },
+  transformHead({ page }) {
+    if (page === '404.md') return [['meta', { name: 'robots', content: 'noindex' }]]
+    const path = page.replace(/(^|\/)index\.md$/, '$1').replace(/\.md$/, '.html')
+    return [['link', { rel: 'canonical', href: new URL(path, siteUrl).href }]]
+  },
   themeConfig: {
     siteTitle: 'Hyperf',
     nav: [

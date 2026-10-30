@@ -23,10 +23,11 @@ npm run docs:dev
 ```sh
 npm run check
 npm run docs:build
+npm run check:seo
 npm run docs:preview
 ```
 
-`check` проверяет полноту меню, внутренние ссылки и изображения. Сборка дополнительно проверяет компиляцию всех страниц и формирует поисковый индекс. Готовый сайт находится в `docs/.vitepress/dist`.
+`check` проверяет полноту меню, внутренние ссылки и изображения. Сборка дополнительно проверяет компиляцию всех страниц и формирует поисковый индекс. `check:seo` после сборки проверяет sitemap, канонические адреса, наличие заголовков в HTML и отсутствие запрета индексации статей. Готовый сайт находится в `docs/.vitepress/dist`.
 
 ## Редактирование
 
@@ -39,6 +40,21 @@ npm run docs:preview
 В настройках репозитория **Settings → Pages → Build and deployment → Source** выберите **GitHub Actions**. Отправка в `main` запустит проверку, сборку и публикацию через `.github/workflows/deploy.yml`. Для pull request выполняются только проверки и сборка.
 
 При смене имени репозитория или домена обновите `base`, `head` и `sitemap.hostname` в `docs/.vitepress/config.mts`.
+
+## Индексация Google и Яндексом
+
+Сайт отдаёт статьи в готовом HTML. При сборке VitePress создаёт карту всех статей `https://guitaristdave.github.io/ruhyperf/sitemap.xml`, а конфигурация добавляет каждой статье канонический адрес. Страница ошибки 404 получает `noindex`.
+
+1. Откройте [Google Search Console](https://search.google.com/search-console/), добавьте ресурс типа **Префикс URL**: `https://guitaristdave.github.io/ruhyperf/`. Выберите подтверждение через **HTML-тег** и скопируйте только значение `content` из `google-site-verification`.
+2. Откройте [Яндекс Вебмастер](https://webmaster.yandex.ru/), добавьте тот же адрес сайта. Выберите подтверждение метатегом и скопируйте значение `content` из `yandex-verification`.
+3. Коды подтверждения уже добавлены в `head` файла `docs/.vitepress/config.mts`. При смене владельца замените значения `content` соответствующих метатегов. Это публичные коды, они попадут в HTML; переменные GitHub для них не нужны.
+4. Опубликуйте изменения через `main`. Дождитесь успешного завершения workflow **Actions → Документация · GitHub Pages**. Проверьте наличие метатегов в исходном HTML главной страницы и нажмите подтверждение в обоих кабинетах. Не удаляйте метатеги после подтверждения: сервисы могут проверять права повторно.
+5. В Google Search Console откройте **Файлы Sitemap** и отправьте `https://guitaristdave.github.io/ruhyperf/sitemap.xml`. В Яндекс Вебмастере откройте **Индексирование → Файлы Sitemap** и добавьте тот же URL.
+6. В Google используйте **Проверка URL** для главной страницы и нажмите **Запросить индексирование**. В Яндексе отправьте главную и важные статьи через **Индексирование → Переобход страниц**. Статус обхода и индексации отслеживайте в кабинетах.
+
+`robots.txt` поисковики читают только из корня хоста: `https://guitaristdave.github.io/robots.txt`. Этот репозиторий публикуется в `/ruhyperf/`, поэтому добавление `docs/public/robots.txt` не управляет обходом сайта. Отсутствующий корневой robots.txt сам по себе не запрещает обход. Если корневой сайт будет настроен отдельно, можно добавить туда `Sitemap: https://guitaristdave.github.io/ruhyperf/sitemap.xml`. До этого отправляйте карту через кабинеты.
+
+Регистрация и отправка карты помогают обнаружить страницы, но не гарантируют включения в поиск и конкретных сроков. Инструкции: [Google о подтверждении прав](https://support.google.com/webmasters/answer/9008080), [Google о Sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap), [Яндекс о Sitemap](https://yandex.ru/support/webmaster/ru/indexing-options/sitemap).
 
 ## Зависимости
 
